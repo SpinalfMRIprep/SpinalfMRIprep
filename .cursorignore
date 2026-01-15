@@ -1,0 +1,52 @@
+# Python caches and build artifacts
+__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+coverage.xml
+htmlcov/
+.tox/
+.nox/
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Editor/IDE
+.vscode/
+.cursor/
+
+# OS
+.DS_Store
+
+# Large datasets / inputs (keep out of indexing)
+datasets/
+
+# Runtime / outputs (do not index large or write-once artifacts)
+work/
+logs/
+state/
+
+# Private folder (never index)
+private/
+
+# Medical imaging / large binaries (avoid indexing)
+*.nii
+*.nii.gz
+*.mgz
+*.mgh
+*.dcm
+*.dicom
+
+# Local large docs / exports
+/os
+
+# Vendor documentation (external, large)
+docs/vendor/
+
+# Poetry lock (large, auto-generated)
+poetry.lock
