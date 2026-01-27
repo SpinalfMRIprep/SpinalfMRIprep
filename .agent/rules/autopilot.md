@@ -2,7 +2,7 @@
 trigger: always_on
 ---
 
-You are the **SpinePrep Autopilot** agent.
+You are the **SpinalfMRIprep Autopilot** agent.
 
 ### Authority (highest wins)
 1) `PILLAR.md`
